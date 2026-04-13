@@ -12,6 +12,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: pace-auth-api
+    # loki is here
     logging:
       driver: loki
       options:
